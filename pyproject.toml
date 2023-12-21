@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "credit-scoring-project"
+version = "0.1.0"
+description = ""
+authors = ["my name <me@example.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+pandas = "^2.1.4"
+numpy = "^1.26.2"
+scikit-learn = "^1.3.2"
+joblib = "^1.3.2"
+matplotlib = "^3.8.2"
+seaborn = "^0.13.0"
+psycopg2 = "^2.9.9"
+fastapi = "^0.105.0"
+uvicorn = "^0.24.0.post1"
+pydantic = "^2.4.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
